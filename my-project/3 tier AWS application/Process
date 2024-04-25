@@ -1,0 +1,68 @@
+step-1: create a vpc > internet gate way > subnets (1 public ,2 or more private with different sub zones) > route tables (public and private) > NAT gateway 
+
+step-2: create an EC2 instance >use ubuntu os > select key pair > edit network settings >launch instance 
+
+step-3: open RDS > create subnet group > select atleast two subnets > create
+
+step:4 databases > mysql > select --free tier-- > password  (rootrot) >storage 20 gb > select vpc > create 
+
+step-5: connect with server (terminal)
+
+step-6: go to root user (.sudo su)
+
+step-7: update it (.apt update -y)
+
+# use Apache2 for ubuntu server
+step-8: install Apache2 (.apt install apache2 -y)
+
+step-9: check the status of apache2 (.systemctl status apache2)
+
+[ when the server is running, copy the IP address and paste in browser for confrimation]
+
+step-10: open terminal in new tab and copy the code and images for local system to remote server.
+(.scp -r -i downloads/{pemfile.pem} downloads/code ubuntu@{ip address}:/home/ubuntu)
+
+step-11: now go to server terminal, enter (.exit) to come back in sudo user
+
+step-12: check those lists in sudo user (.ls)
+
+step-13: send those files to root user (.sudo cp -r code /root)
+
+step-14: open the folder until php file comes and send it to 
+ (.cp -r images /var/www/html)
+ (.cp -r index.php /var/www/html)
+
+step-15: to check it
+ (.cd /var/www/html)
+ (.ls)
+ (.rm -r index.html)
+  {check php file, delete html file  ,if it is present }
+
+step-16: install php in server to run the code in the sever environment
+ (.add-apt-repository -y ppa:ondrej/php)
+ (.apt install php5.6 mysql-client php5.6-mysqli)
+  {click tab[keyboard] and ok }
+
+step:17 copy the endpoint id from RDS , paste in root user's php code { USERNAME }
+
+step:18 give databases username and password in th php code 
+
+step:19 now connect with databases { mysql}
+ (.mysql -h [end point id ] -u admin -p)
+password: rootroot
+
+step:20 now createa database
+ (.create database intel;)
+ (.show databases;) > to see database
+ (.use intel;)  > to run the database
+ (.create table data(firstname varchar(30), email varchar(20)); ) > to create new database
+ 
+ step:21 now open the brower with IP ADDRESS 
+
+ step:22 after entering the data in brower , to check the data 
+  (.select * from data; )
+
+
+
+
+****  SEE THE BELOW IMAGES TO BETTER UNDERSTANDING ******

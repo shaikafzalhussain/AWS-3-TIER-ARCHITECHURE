@@ -1,0 +1,11 @@
+we are developing a 3 tier appliation.
+By using AWS cloud platform.
+
+
+  In this process we use few AWS Services
+they are :
+1)Virtual private  cloud (VPC)
+2)EC2 INSTANCES (UBUNTU image)
+3)Relational Database Service (RDS)
+
+and connecting the ec2 instance to terminal(server) 
