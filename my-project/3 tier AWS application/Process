@@ -7,7 +7,7 @@ step-2: create an EC2 instance >use ubuntu os > select key pair > edit network s
 
 step-3: open RDS > create subnet group > select atleast two subnets > create
 
-step:4 databases > mysql > select --free tier-- > password  (rootrot) >storage 20 gb > select vpc > create 
+step:4 databases > mysql > select --free tier-- > password  (rootroot) >storage 20 gb > select vpc > create 
 
 step-5: connect with server (terminal)
 
