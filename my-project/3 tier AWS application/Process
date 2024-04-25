@@ -1,3 +1,6 @@
+
+********    DOWNLOAD THE ZIP FILE **********
+
 step-1: create a vpc > internet gate way > subnets (1 public ,2 or more private with different sub zones) > route tables (public and private) > NAT gateway 
 
 step-2: create an EC2 instance >use ubuntu os > select key pair > edit network settings >launch instance 
@@ -65,4 +68,7 @@ step:20 now createa database
 
 
 
+
 ****  SEE THE BELOW IMAGES TO BETTER UNDERSTANDING ******
+
+
