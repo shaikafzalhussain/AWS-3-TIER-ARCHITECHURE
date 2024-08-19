@@ -1,3 +1,8 @@
+<h1> AWS 3 - TIER  ARCHITECHURE </h1>
+
+![aws 3 - tier architecture drawio (1)](https://github.com/user-attachments/assets/f960ad27-8ddb-4bb7-8cc3-279a564d062f)
+
+
 PHASE-1
 <img width="1440" alt="Screenshot 2024-04-25 at 4 27 51 PM" src="https://github.com/shaikafzalhussain/my-project/assets/167523515/a744e2c4-9b19-459f-b5fa-a447e3d95f52">
 PHASE-2
