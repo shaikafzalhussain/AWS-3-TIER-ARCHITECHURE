@@ -9,3 +9,12 @@ they are :
 3)Relational Database Service (RDS)
 
 and connecting the ec2 instance to terminal(server) 
+
+--> Updated the server's package lists and installed Apache2 web server for application hosting.
+--> Securely transferred application code and assets from local to remote server using SCP.
+--> Configured Apache2 to serve the application, including PHP environment setup.
+--> Established database connection using PHP and executed SQL queries to interact with the MySQL database.
+--> Updated the server's package lists and installed Apache2 web server for application hosting.
+--> Securely transferred application code and assets from local to remote server using SCP.
+--> Configured Apache2 to serve the application, including PHP environment setup.
+--> Established database connection using PHP and executed SQL queries to interact with the MySQL database.
